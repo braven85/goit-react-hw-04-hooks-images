@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/goit-react-hw-04-hooks-images/static/media/search.929602c9.svg"
   },
   {
-    "revision": "1ec090b865d6b1c0b8b01a9df3c5fc10",
+    "revision": "7cdec6ea01791024c5d504915d6a04c3",
     "url": "/goit-react-hw-04-hooks-images/index.html"
   }
 ];
