@@ -30,7 +30,6 @@ function App() {
           page === 1
             ? setImages(data.hits)
             : setImages([...images, ...data.hits]);
-          // setPage(pageNum + 1);
           page === 1
             ? setImagesDisplayed(data.hits.length)
             : setImagesDisplayed(imagesDisplayed + data.hits.length);
@@ -43,7 +42,7 @@ function App() {
 
   useEffect(() => {
     fetchImages(searchInput, page);
-  });
+  }, [searchInput, page]);
 
   const changeHandler = (e) => {
     const value = e.target.value;
@@ -58,7 +57,7 @@ function App() {
 
   const loadMore = (e) => {
     e.preventDefault();
-    fetchImages(searchInput, page);
+    setPage(page => page + 1);
   };
 
   const openModalWindow = (e) => {
