@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "554168f45edcbc6de2ba",
+    "revision": "98782afa255c78129525",
     "url": "/goit-react-hw-04-hooks-images/static/css/main.833c81d0.chunk.css"
   },
   {
-    "revision": "554168f45edcbc6de2ba",
-    "url": "/goit-react-hw-04-hooks-images/static/js/main.554168f4.chunk.js"
+    "revision": "98782afa255c78129525",
+    "url": "/goit-react-hw-04-hooks-images/static/js/main.98782afa.chunk.js"
   },
   {
     "revision": "8c98aab82769540efb62",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/goit-react-hw-04-hooks-images/static/media/search.929602c9.svg"
   },
   {
-    "revision": "7cdec6ea01791024c5d504915d6a04c3",
+    "revision": "7105441ea4548554862a79d660e8e351",
     "url": "/goit-react-hw-04-hooks-images/index.html"
   }
 ];
